@@ -1,0 +1,18 @@
+{
+  "name": "next-replacestate-refresh-scroll",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4612",
+    "build": "next build",
+    "start": "next start -p 4612",
+    "probe": "node probe.cjs"
+  },
+  "dependencies": {
+    "next": "^16.2.3",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "playwright": "1.59.1"
+  }
+}
